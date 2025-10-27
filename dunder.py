@@ -36,8 +36,8 @@ class Car:
         self.year = year 
 
     # __str__ is meant for a user friendly output, printing on a class by default would look for this method
-    def __str__(self):
-        return f"This car is an {self.make} {self.model}, {self.year}"
+    # def __str__(self):
+    #     return f"This car is an {self.make} {self.model}, {self.year}"
 
     # __repr__ is meant for a more detailed, unambiguous output
     def __repr__(self):
@@ -45,8 +45,8 @@ class Car:
     
 car1 = Car("Hyundai", "L45", 2024)
 
-print(car1.__str__())
-print(car1.__repr__())
+# print(car1.__str__())
+print(car1)
     
 
 
